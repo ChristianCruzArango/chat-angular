@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  UrlBase:'http://localhost/Chat/public',
+  pusher_key:'AND20201234',
+  pusher_cluster:'mt1',
+  pusher_host:'localhost'
 };
 
 /*
